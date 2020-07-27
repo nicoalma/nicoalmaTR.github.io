@@ -1,0 +1,450 @@
+body{
+    font-family: 'Literata', serif;    background: #F0D7DB;
+    margin: 0;
+    }
+
+h1,h2,h3,h4 {
+    color: #444B8B;
+    margin: 0px;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 116%;
+    text-align: center;
+    color: #444B8B;
+}
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #444B8B;
+    
+}
+
+p strong{
+    font-weight: bold;
+}
+
+figure{
+    margin: 0px;
+}
+
+.header{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.header figure{
+    object-fit: cover;
+    width: auto;
+}
+/* .header img{
+    max-width: 100%;
+} */
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 191px;
+margin: 0px;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+.slides-header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.slides-header img{
+width: 100%;
+object-fit: cover;
+}
+
+.description{
+display: flex;
+flex-wrap:wrap;
+align-items: center;
+justify-content: center;
+background-color: #F0D7DB;
+margin: 0;
+padding: 80px 0px;
+}
+
+.description-info {
+    max-width: 50%;
+}
+
+.description figure{
+display: flex;
+align-content: center;
+justify-content: center;
+margin-bottom: 60px;
+width: 100%;
+}
+
+.description img{
+    max-width: 100%;
+}
+
+.catalog{
+    display: block;
+    background-color:  #444B8B;
+    padding: 60px 0px 40px;
+}
+
+.catalog figure{
+    display: flex;
+margin: 20px;
+justify-content: center;
+}
+
+
+.catalog h1 {
+    color: #F0D7DB;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    line-height: 10px;
+    margin: 20px;
+}
+.catalog img {
+    margin: 0px -20px;
+  }
+.menu{
+    background-color: white;
+    padding: 10px auto;
+}
+
+.menu-title{
+    background-color: white;
+margin: 0px;
+padding: 40px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items: top;
+    background-color: white;
+    padding: 0 40px;
+}
+
+.menu-product{
+    width: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-product figure{
+    margin: 0px;
+}
+
+.menu-product h2{
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+margin: 20px 0 0 0;
+color: #C7964A;
+}
+
+.menu-product h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 53px;
+    color: #444B8B;
+    margin: 0px;
+    }
+.menu-product h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 134.2%;
+    text-align: center;
+    color: #444B8B;
+    margin: 0px;
+        }
+
+.white-space{
+    height: 1em;
+    background:white;
+}
+.info  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.info-description{
+    margin: 20px;
+    width: 50%;
+}
+
+.info-photo{
+width: 50%;
+}
+
+.info-photo img {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0em;
+object-fit: cover;
+}
+.info-bullet {
+    color:  #444B8B;
+}
+.info-description h1{
+    font-size: 58px;
+    margin-bottom: 70px;
+    
+}
+.info-description ul {
+    margin-right: 63px;
+    margin-bottom: 20px;
+
+}
+.info-description p{
+    text-align: left;
+}
+
+.info-description button{
+    display: block;
+    font-family: 'Literata', serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    background: transparent;
+    color:  #444B8B;
+    padding: 20px 0;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #444B8B;
+
+}
+
+.info-description button:hover{
+    color: #F0D7DB;
+    background: #444B8B;
+    
+
+}
+.footer{
+background-color:  #444B8B;
+padding: 30px;
+margin: 0px;
+
+}
+
+.footer-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 100px;
+}
+.footer h1{
+    font-size: 38px;
+    color:#F0D7DB;
+    margin: 40px 0 60px;
+}
+
+.footer h3{
+    color:#F0D7DB;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 53px;
+margin:20px;
+}
+.footer img{
+    vertical-align: middle;
+}
+.container{
+    max-width: width 1000px;
+    flex:1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+/* Aquí empieza el código para que sea responsive */
+
+@media screen and (max-width:1024px){
+
+.info h1{
+    font-size: 3em;
+}
+.info p {
+font-size: 1em;
+}
+.info-description button{
+    margin:2em auto;
+}
+.info-description{
+    width: 100%;
+}
+
+.info  {
+    flex-wrap: wrap;
+}
+.info-photo{
+    width: 100%;
+    }
+.info-photo img {
+    position: static;
+    width: 100%;
+    height: auto;
+}
+.footer-links {
+display: block;
+text-align: center;
+margin: auto;
+}
+}
+@media screen and (max-width:768px){
+    .description {
+        padding: 2em 1em;
+    }
+    .description p{
+        font-size: 1em;
+    }
+    .description figure{
+    margin-bottom: 2em;
+    }
+    .description-info {
+        max-width: 80%;
+    }
+    .catalog h1{
+        display: block;
+        font-size: 2em;
+        margin: 0.4em;
+        
+    }
+    .catalog figure{
+        margin: 0.5em;
+    }
+    .catalog {
+        padding: 1em;
+    }
+    .catalog figure img{
+        width: 5em;
+    }
+    .info {
+        text-align: center;
+    }
+    .info h1 {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .info-description button{
+        margin:2em auto;
+        
+    }
+
+    .info-photo img{
+        height: auto;
+        width: 100%
+    };
+    .footer h1{
+        font-size:1.8em;
+    }
+}
+@media screen and (max-width:479px){
+    .header-logo {
+        height: auto;
+        width: 70%;
+    }
+    .header-logo img{
+        max-width: 100%;
+    }
+    .menu-title{
+padding: 1.5em;
+    }
+    .menu-title h1{
+        font-size: 2.5em;
+        
+    }
+    .description-info {
+        max-width: 100%;
+    }
+    .description p{
+        font-size: 0.8em;
+    }
+    .catalog {
+        padding: 0.8em;
+    }
+    .catalog figure{
+        margin: 0em;
+    }
+    .catalog h1{
+        margin: 0.5em;
+        font-size: 1.4em;
+    }
+    .catalog img {
+        max-width: 100%;
+    }
+    .catalog figure img{
+        width: 3em;
+    }
+    .info h1 {
+        font-size: 2em;
+        margin-bottom: 0.7em;
+    }
+    .info-description ul{
+        margin-right: 2em;
+    }
+    .info p {
+        font-size: 0.8em;
+        }
+}
+@media screen and (max-width:320px){
+    .header-logo{
+        width: 50%;
+    }
+    .menu-title h1{
+        font-size: 2.2em;
+        
+    }
+    .menu-title{
+        padding: 1em;
+            }
+    .description-info p {
+         font-size: 0.7em;
+    }
+    .description p{
+        font-size: 0.7em;
+    }
+    .catalog {
+        padding: 0.5em;
+    }
+    .catalog figure img{
+        width: 2em;
+    }
+    .footer h1{
+        font-size: 1.4em;
+    }
+    .footer h3{
+        font-size:0.9em;
+    }
+
+}
