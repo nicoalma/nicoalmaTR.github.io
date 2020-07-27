@@ -35,19 +35,12 @@ figure{
 }
 
 .header{
-display: flex;
+display: block;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 }
 
-.header figure{
-    object-fit: cover;
-    width: auto;
-}
-/* .header img{
-    max-width: 100%;
-} */
 .header-logo{
     display: flex;
     align-items: center;
@@ -64,36 +57,53 @@ padding-bottom: 20px;
     padding: 0;
 }
 
+.slides-container {
+    width: 100%;
+    margin: 0;
+    height: 700px;
+    overflow: hidden;
+    text-align: end;
+
+}
+
 .slides-header img{
-width: 100%;
 object-fit: cover;
 }
 
-.description{
+.welcome {
+    display:flex;
+    justify-content: space-around;
+    align-items: top;
+    padding: 3em 1em;
+}
+
+.welcome figure {
 display: flex;
-flex-wrap:wrap;
-align-items: center;
-justify-content: center;
+}
+.welcome p {
+    display:flex;
+    margin:0;
+
+    width: 500px;
+    text-align: left;
+}
+
+.description{
+display: block;
+text-align: center;
 background-color: #F0D7DB;
 margin: 0;
 padding: 80px 0px;
 }
 
-.description-info {
-    max-width: 50%;
-}
-
-.description figure{
-display: flex;
-align-content: center;
-justify-content: center;
+.description-line img{
+    display: inline-block;
+text-align: center;
 margin-bottom: 60px;
-width: 100%;
 }
-
-.description img{
-    max-width: 100%;
-    max-height: 100%;
+.description-info {
+    display: inline-block;
+    max-width: 50%;
 }
 
 .catalog{
@@ -336,6 +346,12 @@ margin: auto;
     .description-info {
         max-width: 80%;
     }
+    .welcome p{
+        margin: 1em;
+    }
+    .welcome img {
+        width: 100%;
+    }
     .catalog h1{
         display: block;
         font-size: 2em;
@@ -379,6 +395,23 @@ margin: auto;
     .header-logo img{
         max-width: 100%;
     }
+    .slides-container {
+        height:auto;
+    }
+    .slides-container img {
+        width: 100%;
+    }
+    .welcome {
+        display: flex;
+        flex-wrap:wrap-reverse;
+        padding: 1em 1em 0;
+    }
+    .welcome p {
+        width: auto;
+        margin: 1em 0 2em;
+        text-align: center;
+        font-size: 1em;
+    }
     .menu-title{
 padding: 1.5em;
     }
@@ -386,8 +419,17 @@ padding: 1.5em;
         font-size: 2.5em;
         
     }
+    .description {
+        padding: 1em 1.5em;
+    }
+    .description figure{
+        margin: 0;
+    }
     .description-info {
         max-width: 100%;
+    }
+    .description-line img {
+        margin-bottom: 0;
     }
     .description p{
         font-size: 0.8em;
@@ -406,6 +448,9 @@ padding: 1.5em;
     .catalog figure img{
         width: 3em;
         height: auto;
+    }
+    .info{
+        padding: 1em 0 0;
     }
     .info h1 {
         font-size: 2em;
